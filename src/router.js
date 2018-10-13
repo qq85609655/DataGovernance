@@ -41,7 +41,7 @@ Vue.use(Router)
 export default new Router({
     routes: [
         { path: '/',component: dgpLogin},
-    //     { path:'/dgpAdministrator',component:dgpAdministrator},
+        { path:'/dgpAdministrator',component:dgpAdministrator},
         {
             path: '/dgpDataStandard',redirect: '/dgpDataStandard/dgpDataInfo', component: dgpDataStandard,
             children:[
