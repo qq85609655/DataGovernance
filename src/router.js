@@ -41,7 +41,7 @@ Vue.use(Router)
 export default new Router({
     routes: [
         { path: '/',component: dgpLogin},
-        { path:'/dgpAdministrator',component:dgpAdministrator},
+    //{ path:'/dgpAdministrator',component:dgpAdministrator},
         {
             path: '/dgpDataStandard',redirect: '/dgpDataStandard/dgpDataInfo', component: dgpDataStandard,
             children:[
@@ -75,20 +75,20 @@ export default new Router({
     //             { path: '/dgpMetadata/metaDataIndex', component: metaDataIndex },
     //         ]
     //     },
-        { path:'/dgpSystemAdmin', redirect: '/dgpSystemAdmin/dgpSystemUser',component:dgpSystemAdmin,
-            children:[
-                { path: 'dgpSystemUser', component: dgpSystemUser },
-                { path: 'dgpSystemRole', component: dgpSystemRole },
-                { path: 'dgpSystemJurisdiction', component: dgpSystemJurisdiction },
-                { path: 'dgpSystemMechanism', component: dgpSystemMechanism },
-                { path: 'dgpSystemMenu', component: dgpSystemMenu },
-                { path: 'dgpSystemParameter', component: dgpSystemParameter },
-                { path: 'dgpSystemConfigure', component: dgpSystemConfigure },
-                { path: 'dgpSystemNotice', component: dgpSystemNotice },
-                { path: 'dgpSystemJournal', component:  dgpSystemJournal },
-                { path: 'dgpSystemProcess', component: dgpSystemProcess }
-            ]
-        },
+    // { path:'/dgpSystemAdmin', redirect: '/dgpSystemAdmin/dgpSystemUser',component:dgpSystemAdmin,
+    //     children:[
+    //         { path: 'dgpSystemUser', component: dgpSystemUser },
+    //         { path: 'dgpSystemRole', component: dgpSystemRole },
+    //         { path: 'dgpSystemJurisdiction', component: dgpSystemJurisdiction },
+    //         { path: 'dgpSystemMechanism', component: dgpSystemMechanism },
+    //         { path: 'dgpSystemMenu', component: dgpSystemMenu },
+    //         { path: 'dgpSystemParameter', component: dgpSystemParameter },
+    //         { path: 'dgpSystemConfigure', component: dgpSystemConfigure },
+    //         { path: 'dgpSystemNotice', component: dgpSystemNotice },
+    //         { path: 'dgpSystemJournal', component:  dgpSystemJournal },
+    //         { path: 'dgpSystemProcess', component: dgpSystemProcess }
+    //     ]
+    // },
     //{ path:'/dgpScreenDisplay', component:dgpScreenDisplay }
   ]
 })
