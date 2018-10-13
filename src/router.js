@@ -89,6 +89,6 @@ export default new Router({
     //           { path: 'dgpSystemProcess', component: dgpSystemProcess }
     //       ]
     //   },
-    //   { path:'/dgpScreenDisplay', component:dgpScreenDisplay }
+        { path:'/dgpScreenDisplay', component:dgpScreenDisplay }
   ]
 })
