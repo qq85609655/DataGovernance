@@ -113,7 +113,10 @@
     background-color: #6BC7BC;
 }
 
-
+.ivu-checkbox-checked .ivu-checkbox-inner{
+    border-color: #32B3EA;
+    background-color: #32B3EA;
+}
 
 
 

@@ -1,0 +1,193 @@
+.dgp-rightSwitch{
+    display:inline-block;
+    font-size:.4rem;
+    position:absolute;
+    top:-.01rem;
+    right:.18rem;
+    border-radius: .01rem;
+    cursor:pointer;
+    font-style:normal;
+    color: #32B3EA ;
+
+}
+/*开始时间结束时间日历部分*/
+.dgp-notice-middleContent .ivu-input{
+    height:.3rem;
+}
+.dgp-notice-middleContent .ivu-input-icon{
+    line-height:.3rem;
+}
+
+
+/*用户管理select下拉列表*/
+/*select框*/
+.dgp-middleContent .ivu-select-selection,
+.dgp-notice-middleContent .ivu-select-selection
+{
+    height:.34rem;
+    border-radius:.03rem;
+}
+.dgp-middleContent .ivu-select-item{
+    padding-left:.12rem;
+}
+.dgp-middleContent .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value{
+    height:.3rem;
+    line-height:.3rem;
+    border-radius:.03rem;
+}
+
+
+/*菜单管理*/
+.dgp-systemMenu-content .ivu-select-selection{
+    height:.41rem;
+    border-radius:.03rem;
+}
+.dgp-systemMenu-content  .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value,
+.dgp-systemMenu-newAdd-content .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value
+{
+    height:.3rem;
+    line-height:.35rem;
+    border-radius:.03rem;
+}
+.dgp-systemMenu-info-content .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value,
+.dgp-systemMenu-newAdd-content .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value
+{
+    text-align:left;
+}
+.dgp-systemMenu-info-content .ivu-select-dropdown-list li,
+.dgp-systemMenu-newAdd-content .ivu-select-dropdown-list li
+{
+    text-align:left;
+    text-indent:-.03rem;
+}
+
+
+
+/*通知管理select*/
+.dgp-notice-middleContent .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value{
+    height:.3rem;
+    line-height:.3rem;
+}
+
+
+/*用户管理新增模态框用户类型下拉列表*/
+.dgp-increseModal-userType .ivu-select-single .ivu-select-selection,
+.dgp-postStation-post .ivu-select-single .ivu-select-selection
+{
+    height:.41rem;
+}
+.dgp-increseModal-userType .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value,
+.dgp-postStation-post .ivu-select-single .ivu-select-selection
+.ivu-select-placeholder, .ivu-select-single .ivu-select-selection
+.ivu-select-selected-value
+{
+    height:.35rem;
+    line-height:.35rem;
+    text-align:left;
+}
+.dgp-systemUser-newAdd-content .ivu-select-dropdown-list li{
+    text-align:left;
+    text-indent:-.03rem;
+}
+/*岗位下拉框宽度调整*/
+.dgp-postStation-post .ivu-select-dropdown{
+    width:1.12rem;
+}
+
+.dgp-systemMechanism-tree-title .ivu-modal-body{
+    padding: .16rem;
+    font-size: .12rem;
+}
+
+.dgp-transferRoleModal .dgp-tree-organization .ztree{
+    width:2.74rem ;
+}
+
+/*用户管理模态框右下角按钮大小调试*/
+ .dgp-userSystem .ivu-btn-large{
+    padding:0;
+    font-size:.14rem;
+    width:.86rem;
+    height:.36rem;
+}
+
+/*用户管理分配权限穿梭框 footer样式*/
+.dgp-transferModal .ivu-modal-content .ivu-modal-footer{
+    /* margin-top:0rem ; */
+}
+/*角色管理分配权限穿梭框 用户账户搜索图标位置样式*/
+.dgp-transferModal .ivu-input-prefix i, .ivu-input-suffix i{
+    line-height:.02rem;
+}
+.dgp-transferRoleModal .ivu-modal-content .ivu-modal-footer{
+    margin-top:0.2rem ;
+}
+.dgp-transferModal .ivu-modal-content .ivu-modal-header{
+    /*10 12*/
+    padding:0.1875rem 0.225rem;
+}
+
+
+/*滚动条样式*/
+::-webkit-scrollbar{
+    width:.15rem;
+    height:.15rem;
+}
+::-webkit-scrollbar-button{
+    width:0; height:0;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment{
+    display:block;
+}
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement {
+    display:none;
+}
+::-webkit-scrollbar-corner{ display:block; }
+::-webkit-scrollbar-thumb{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.2);
+    border-radius:.08rem;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.2);
+    border-radius:.08rem;
+}
+::-webkit-scrollbar-track:vertical,
+::-webkit-scrollbar-thumb:vertical{
+    border-left:.01rem solid transparent;
+    border-right:.01rem solid transparent;
+}
+::-webkit-scrollbar-track:horizontal,
+::-webkit-scrollbar-thumb:horizontal{
+    border-top:.01rem solid transparent;
+    border-bottom:.01rem solid transparent;
+}
+::-webkit-scrollbar-track:hover{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.15);
+}
+
+
+/*登录页登录按钮 登录两字默认加载颜色为白色*/
+.dgp-login-content .ivu-btn>span{
+    color:#fff;
+}
+
+
+

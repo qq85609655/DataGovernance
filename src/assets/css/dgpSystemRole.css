@@ -1,0 +1,95 @@
+.dgp-roleSystem{
+    /* padding-top:.31rem;
+    padding-left:.7rem; */
+}
+.dgp-role-queryArea{
+    width:16.8rem;
+    border-radius: .03rem;
+    margin-bottom:.28rem;
+    position:relative;
+}
+.dgp-role-leftTitle{
+    width:100%;
+    height:.5rem;
+    line-height:.5rem;
+    padding-left:.31rem;
+    font-size: .16rem;
+    border-bottom-width:.01rem;
+    border-bottom-style:solid;
+    font-family: PingFangSC-Regular;
+}
+.dgp-role-leftTitle span{
+    display:inline-block;
+    width:.2rem;
+    height:.04rem;
+    position:absolute;
+    top:.2rem;
+    right:.18rem;
+    border-radius: .01rem;
+    cursor:pointer;
+}
+.dgp-role-leftTitle label{
+    width:.7rem;
+    height:.2rem;
+}
+.dgp-roleAccount{
+    padding-left:.31rem;
+}
+.dgp-roleName{
+    padding-left:.7rem;
+}
+.dgp-role-middleContent{
+    height:1.09rem;
+    padding-top:.37rem;
+}
+.dgp-role-middleContent input{
+    width:2.14rem;
+    height:.3rem;
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
+.dgp-role-middleContent label{
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+    color: #000000;
+}
+.dgp-role-middleContent button{
+    width:.64rem;
+    height:.3rem;
+    line-height:.3rem;
+    border-radius: .03rem;
+    margin-left:.19rem;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+}
+
+
+/*表格内容部分*/
+.dgp-tableArea{
+    width:16.80rem;
+    border-radius: .03rem;
+}
+.dgp-role-operateButton{
+    height:.8rem;
+    padding-top:.24rem;
+    padding-left:.32rem;
+}
+.dgp-role-increaseBtn,.dgp-role-powerBtn,.dgp-role-powerBtn,.dgp-role-powerBtn{
+    min-width:.82rem;
+    height:.36rem;
+    line-height: .36rem;
+    border-radius: .03rem;
+    font-family: PingFangSC-Regular;
+    font-size: .16rem;
+    cursor:pointer;
+    margin-right:.1rem;
+}
+.dgp-role-increaseBtn img{
+    width:.14rem;
+    height:.14rem;
+}
+
+
+
+

@@ -1,0 +1,237 @@
+.dgp-home-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.dgp-home-icon{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 1rem;
+    height: 100%;
+    background:rgb(0,21,41);
+}
+.dgp-whiteArrow-icon{
+    height: 0.64rem;
+    line-height: 0.64rem;
+    width: 100%;
+    background-color: rgb(107, 199, 188);
+    box-shadow: 0px 0px .06rem 0px rgba(0, 21, 41, 0.35);
+    text-align: center;
+}
+.dgp-whiteArrow-icon img{
+    width: 35.93%;
+    margin-top: 0.12rem;
+
+}
+.dgp-home-icons{
+    height: 1rem;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgb(0, 21, 41);
+    border-bottom: .01rem solid rgb(42,41,57);
+}
+.dgp-home-icons>li>p {
+    font-size: 0.16rem;
+    color: #fff;
+}
+.dgp-home-icons>li>img{
+    margin-top: 20%;
+    width: 25%;
+}
+.dgp-home-icons-blank{
+    height: 0.5rem;
+}
+/*主页面及logo*/
+.dgp-homeContent{
+    height:100%;
+    position: absolute;
+    left: 1rem;
+    top: 0;
+    width: 18.2rem;
+    /*height: 100%;*/
+}
+.dgp-logo{
+    height: 0.64rem;
+    line-height: 0.64rem;
+}
+.dgp-logo div{
+    float: left;
+}
+.dgp-logo>img{
+    float: left;
+    vertical-align: middle;
+    margin-left: 0.13rem;
+    width: 8.9%;
+    margin-top: 0.1rem;
+}
+.dgp-logo-spot{
+    border: 0.04rem solid black;
+    border-radius: 50%;
+    background-color: rgb(0,0,0);
+    margin-top: 0.28rem;
+    margin-left: 0.15rem;
+}
+.dgp-logo-text{
+    font-size: 0.2rem;
+    height: 0.28rem;
+    margin-left: 0.2rem;
+    /*margin-top: 0.21rem;*/
+}
+.dgp-exitSystem{
+    position: absolute;
+    top: 0.14rem;
+    left: 16.64rem;
+}
+.dgp-exitSystem>span {
+    display: block;
+    float: left;
+    color: rgba(112, 115, 123, 1);
+    font-size: 0.18rem;
+    font-family: PingFangSC-Regular;
+}
+.dgp-exitSystem>img{
+    margin-left: 0.14rem;
+}
+/*主页子路由内容部分*/
+.dgp-homeContent-view{
+    position: absolute;
+    left:0;
+    top: .64rem;
+    width:18.2rem;
+    bottom: 0;
+    right:0;
+    overflow: scroll;
+    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+    background: #f0f2f5;
+}
+
+/*系统切换蒙版*/
+
+.dgp-mask{
+    /*display: none;*/
+    z-index: 100;
+}
+.dgp-mask-content{
+    display: none;
+}
+.dgp-menu{
+    z-index: 20;
+    display: none;
+    width: 3.04rem;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.dgp-menu-top {
+    background-color: rgb(107, 199, 188);
+    white-space: 100%;
+    height: 0.64rem;
+}
+
+.dgp-menu-top span {
+    float: left;
+    font-size: 0.18rem;
+    margin-left: 0.14rem;
+    padding-right: 0.14rem;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    margin-top: 5%;
+}
+
+.dgp-menu-fork{
+    float: right;
+    margin-right: 7.6%;
+    margin-left: 0.14rem;
+    margin-top: 0.2rem;
+    width: 0.19rem;
+    background-color: rgb(107, 199, 188);
+}
+.dgp-menu-fork>img{
+    width: 0.19rem;
+}
+.dgp-menu-content {
+    width: 100%;
+    height: 94.05%;
+    background-color: rgb(0, 21, 41);
+    box-shadow: 10px 0px 6px 0px rgba(82, 82, 82, 0.21);
+    z-index: 5;
+}
+
+.dgp-menu-content-module {
+    height: 19.86%;
+    width: 100%;
+    border-bottom: 0.01rem solid #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dgp-menu-content-module img {
+    padding-top: 0.2rem;
+    width: 0.6rem;
+}
+
+.dgp-menu-content-module div {
+    padding-top: 0.1rem;
+}
+
+.dgp-menu-content-module p {
+    color: rgb(255, 255, 255);
+    font-size: 0.16rem;
+    font-family: PingFangSC-Regular;
+}
+.dgp-mask-content{
+    width: 18.2rem;
+    height: 94.08%;
+    position: fixed;
+    left: 1rem;
+    top: 0.64rem;
+    background:rgba(0, 0, 0,0.7) ;
+}
+/*-------------------------二级菜单----------------*/
+.dgp-mask-enterFork{
+    position: fixed;
+    left: 3.04rem;
+    top: 0.64rem;
+    width:  16.16rem;
+    height: 10.16rem;
+    z-index: 20;
+}
+.dgp-secondMenu{
+    position: fixed;
+    left: 1rem;
+    top: 0.64rem;
+    width: 2.04rem;
+    height: 10.16rem;
+    background-color: rgb(246,249,249);
+    display: none;
+    z-index: 3;
+}
+.dgp-secondMenu-title{
+    padding-left: 0.24rem;
+    height: 0.6rem;
+    font-size: .16rem;
+    font-weight: 100;
+    line-height: 0.6rem;
+    color: black;
+    border-bottom: 1px solid rgb(217, 227, 237);
+}
+.dgp-secondMenu li{
+    padding-left: 0.24rem;
+    height: 0.6rem;
+    font-size: .16rem;
+    line-height: 0.6rem;
+    color: rgb(118,118,118);
+    border-bottom: 1px solid rgb(217, 227, 237);
+}

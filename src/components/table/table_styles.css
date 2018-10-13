@@ -1,0 +1,292 @@
+.home-table{
+    height: 100%;
+}
+.home-table .ivu-table thead>tr{
+    border-radius: .03rem;
+    overflow: hidden;
+}
+.home-table .ivu-table th{
+   /*background: #E7EEEB ;*/
+   font-weight: bold;
+}
+.home-table .ivu-table tr{
+   height:.56rem;
+}
+.home-table .ivu-table-wrapper{
+   border: none;
+}
+.dgp-tableBody .home-table .ivu-table-wrapper{
+    height: 100%;
+}
+.dgp-tableBody .home-table .ivu-table-wrapper .ivu-table-header{
+    height: .56rem;
+}
+.home-table .ivu-table th{
+   border: none;
+}
+.home-table .ivu-table-default::before{
+display: none;
+
+}
+.home-table .ivu-table-default::after{
+display: none;
+
+}
+.home-table .ivu-table-header{
+    border-bottom-width:.01rem;
+    border-bottom-style:solid;
+   /*border-bottom: 1px solid #dbe3ec;*/
+}
+.home-table tbody tr>td{
+    border-bottom-width: .01rem;
+    border-bottom-style: solid;
+    color: #333;
+}
+.home-table .ivu-table-row-hover td{
+   background:  none;
+}
+.home-table .tableicon{
+    width: .13rem;
+    height: .15rem;
+   position:absolute;
+   right:0;
+   top: 50%;
+   margin-top: -0.07rem;
+   cursor: pointer;
+}
+.home-table .tableicon-active{
+   position:absolute;
+   right:0;
+   bottom:0;
+   cursor: pointer;
+}
+.home-table .ivu-table-row td{
+   position: relative;
+   
+}
+/*表格横向滚动条隐藏*/
+.home-table .ivu-table-body{
+    overflow-x:hidden;
+}
+
+/*.home-table .ivu-table-body table>tbody>tr:hover>td{*/
+    /*background-color: #c1e6e2;*/
+/*}*/
+.home-table .ivu-table-body table>tbody>tr>td:last-child>div>div>div:not(:last-child):after,
+.home-table .ivu-table-body table>tbody>tr>td:last-child>div>div>a:not(:last-child):after{
+    content: "|";
+    padding-left: .02rem;
+    color:#595959;
+}
+.home-table .ivu-table-body table>tbody>tr>td:last-child>div>div>a:not(:last-child){
+    margin-right: .03rem;
+}
+.home-table  table>tbody>tr>td a{
+    text-decoration: none;
+    /*background-color: transparent;*/
+}
+/*zh search无数据 css*/
+.home-table .ivu-table-tip table>tbody>tr:first-child{
+    height: 5.6rem;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td{
+    background: url("../../assets/images/tableBlank.png") center 1rem no-repeat;
+    background-size: 2.15rem 1.26rem;
+    font-size: .16rem;
+    text-align: center;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>p{
+    height: 1.2rem;
+    width: 100%;
+    padding: .32rem 0 .54rem 0;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>p>span{
+    /*color:#1890FF;*/
+    cursor: pointer;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>p>a{
+    /*color:#1890FF;*/
+    text-decoration: none;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>div{
+    width:1.4rem;
+    height:.34rem;
+    line-height: .34rem;
+    font-size: .16rem;
+    /*color:#FFF;*/
+    /*background-color: #6BC7BC;*/
+    border-radius: .03rem;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+/*去除overflow*/
+.home-table>.ivu-table-wrapper>.ivu-table{
+    position: relative;
+    font-size: .14rem;
+    overflow: visible;
+}
+.home-table div.ivu-table-cell{
+    padding-right: 15px;
+}
+
+/*滚动条样式*/
+
+/*废止*/
+/*.home-table .ivu-table-body table>tbody>tr>td:last-child>div>div>div .ivu-poptip-body>.ivu-icon-ios-help-circle{
+    display: none;
+}*/
+/*.table2 .ivu-table th{*/
+    /*background: #f4f7f6;*/
+/*}*/
+/*.table2 .ivu-table-wrapper{*/
+   /*border-color: #e1e8f0;*/
+/*}*/
+/*.table2 .ivu-table td, .ivu-table th{*/
+   /*border-color: #e1e8f0;*/
+/*} */
+/*.table2 .ivu-table-default::before{*/
+  /*background-color: #e1e8f0;*/
+
+/*}*/
+/*.table2 .ivu-table-default::after{*/
+   /*background-color: #e1e8f0;*/
+
+/*}*/
+/*.table2 .ivu-table-header{*/
+   /*border-color: #e1e8f0;*/
+/*} */
+.table2 thead tr th:nth-child(n+2){
+    border-left-width:.01rem;
+    border-left-style:solid;
+    /*border-left: 1px solid #e1e8f0;*/
+}
+.table2 tbody tr td:nth-child(n+2){
+    border-left-width:.01rem;
+    border-left-style:solid;
+    /*border-left: 1px solid #e1e8f0;*/
+}
+.table2 .tableicon{
+    width: .13rem;
+    height: .15rem;
+   position:absolute;
+   right:0;
+   top: 50%;
+   margin-top: -0.07rem;
+   cursor: pointer;
+}
+.table2 .tableicon-active{
+   position:absolute;
+   right:0;
+   bottom:0;
+   cursor: pointer;
+}
+.table2 .ivu-table-row td{
+   position: relative;
+   
+}
+/*.table3 .ivu-table th{*/
+    /*background: #f4f7f6;*/
+/*}*/
+.table3 .ivu-table-wrapper{
+    border: none;
+}
+.table3 .ivu-table td, .ivu-table th{
+    border: none;
+} 
+.table3 .ivu-table-default::before{
+    display: none;
+
+}
+.table3 .ivu-table-default::after{
+    display: none;
+    
+}
+.table3 .ivu-table-header{
+    /* border-bottom: 1px solid #dbe3ec; */
+}
+.table3 tbody.ivu-table-tbody  tr td{
+    border-bottom-width:.01rem;
+    border-bottom-style:solid;
+    /*border-bottom: 1px solid #e1e8f0;*/
+}
+/* .table3 tbody tr:nth-child(2n) td{
+        background: #f8faf9;
+} */
+.table3 .ivu-table-row-hover td{
+    background:  none;
+}
+ .table3 .tableicon{
+    width: .13rem;
+    height: .15rem;
+   position:absolute;
+   right:0;
+   top: 50%;
+   margin-top: -0.07rem;
+   cursor: pointer;
+}
+.table3 .tableicon-active{
+   position:absolute;
+   right:0;
+   bottom:0;
+   cursor: pointer;
+}
+.table3 .ivu-table-row td{
+   position: relative;
+   
+}
+/*修改确认与否默认颜色*/
+.home-table .ivu-poptip-confirm .ivu-poptip-body .ivu-icon {
+    color:#32B3EA;
+}
+/*修改确认与否默认颜色*/
+.home-table .ivu-poptip-confirm .ivu-poptip-body-message{
+    color:#333;
+}
+
+
+/*滚动条样式*/
+.home-table ::-webkit-scrollbar{
+    width:.15rem;
+    height:.15rem;
+}
+.home-table ::-webkit-scrollbar-button{
+    width:0; height:0;
+}
+.home-table ::-webkit-scrollbar-button:start:decrement,
+.home-table ::-webkit-scrollbar-button:end:increment{
+    display:block;
+}
+.home-table ::-webkit-scrollbar-button:vertical:start:increment,
+.home-table ::-webkit-scrollbar-button:vertical:end:decrement {
+    display:none;
+}
+.home-table ::-webkit-scrollbar-corner{ display:block; }
+.home-table ::-webkit-scrollbar-thumb{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.2);
+    border-radius:.08rem;
+}
+.home-table ::-webkit-scrollbar-thumb:hover{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.2);
+    border-radius:.08rem;
+}
+.home-table ::-webkit-scrollbar-track:vertical,
+.home-table ::-webkit-scrollbar-thumb:vertical{
+    border-left:.01rem solid transparent;
+    border-right:.01rem solid transparent;
+}
+.home-table ::-webkit-scrollbar-track:horizontal,
+.home-table ::-webkit-scrollbar-thumb:horizontal{
+    border-top:.01rem solid transparent;
+    border-bottom:.01rem solid transparent;
+}
+.home-table ::-webkit-scrollbar-track:hover{
+    background-clip:padding-box;
+    background-color:rgba(0,0,0,.15);
+}
+
+
+
+

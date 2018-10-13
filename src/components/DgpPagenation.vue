@@ -1,0 +1,143 @@
+<template>
+    <Page :total="100" show-elevator show-sizer class-name="dgp-page-active"/>
+</template>
+<script>
+    export default {
+        name:'DgpPagenation',
+        props:["columns","data"],
+        data () {
+            return {
+           
+            }
+        },
+        mounted(){
+
+
+        }
+    }
+</script>
+<style>
+    .ivu-page-options-elevator input{
+        border-radius: .03rem;
+        top:-0.04rem;
+    }
+    .pagesEnter{
+        cursor: pointer;
+        display: inline-block;
+        color: #515a6e;
+        font-size: .16rem;
+        padding:0 .08rem;
+        height: .32rem;
+        text-align: center;
+        border: .01rem solid #dcdee2;
+        line-height: .32rem;
+        border-radius: .03rem;
+    }
+    .pagesEnter:hover{
+        background-color: #32B3EA;
+        color: #FFF;
+    }
+   .dgp-page-active .ivu-page-item-active{
+       border-width:.01rem;
+       border-style:solid;
+       /*border: 1px solid #dcdee2;*/
+       /*color:#fff;*/
+   }
+   /*.dgp-page-active .ivu-page-item-active a{*/
+        /*color:#fff;*/
+   /*}*/
+   /*.dgp-page-active .ivu-page-item-jump-next a{*/
+       /*color: #515a6e;*/
+   /*}*/
+   /*.dgp-page-active .ivu-page-item-jump-prev a{*/
+       /*color: #515a6e;*/
+   /*}*/
+   /*.dgp-page-active .ivu-page-item:hover a {*/
+        /*color: #515a6e;*/
+    /*}   */
+   /*.ivu-page-next:hover, .ivu-page-prev:hover {*/
+        /*border-color: #dcdee2;*/
+    /*}*/
+    /*.ivu-page-next:hover a, .ivu-page-prev:hover a{*/
+        /*border-color: #515a6e;*/
+    /*}*/
+   /*.dgp-page-active .ivu-page-item:hover {*/
+        /*border-color: #dcdee2;*/
+    /*}*/
+    /*.dgp-page-active .ivu-page-next:hover a, .ivu-page-prev:hover a {*/
+        /*color: #515a6e;*/
+    /*}*/
+    /*.dgp-page-active .ivu-select-selection-focused, .ivu-select-selection:hover {*/
+        /*border-color: #81c5bc;*/
+    /*}*/
+    /*.dgp-page-active .ivu-select-item-selected,.ivu-select-item-selected:hover {*/
+        /*color: #515a6e;*/
+    /*}*/
+    .dgp-page-active .ivu-select-visible .ivu-select-selection {
+        /*border-color: #dcdee2;*/
+        outline: 0;
+        /*box-shadow: 0 0 0 0;*/
+    }
+    /*.dgp-page-active .ivu-page-options-elevator input:hover {*/
+        /*border-color: #dcdee2;*/
+    /*}*/
+    .dgp-page-active .ivu-page-options-elevator input:focus {
+        /*border-color: #dcdee2;*/
+        outline: 0;
+        /*box-shadow: 0 0 0 0;*/
+    }
+    /*修复分页大小问题*/
+    .dgp-page-active .ivu-page-item-jump-next,
+    .dgp-page-active .ivu-page-item-jump-prev,
+    .dgp-page-active .ivu-page-next,
+    .dgp-page-active .ivu-page-prev,
+    .dgp-page-active .ivu-page-item{
+        min-width: .32rem;
+        height: .32rem;
+        line-height: .3rem;
+        border-width: .01rem;
+        border-radius: .03rem;
+    }
+    .dgp-page-active .ivu-page-item{
+        margin-right: .04rem;
+    }
+    .dgp-page-active .ivu-select-single .ivu-select-selection .ivu-select-placeholder,
+    .dgp-page-active .ivu-select-single .ivu-select-selection .ivu-select-selected-value{
+        height: .3rem;
+        line-height: .3rem;
+        font-size: .12rem;
+        padding: 0 .24rem 0 .08rem;
+    }
+    .dgp-page-active .ivu-select-single .ivu-select-selection{
+        height: .32rem;
+    }
+    .dgp-page-active .ivu-select-selection{
+        border-radius: .03rem;
+        border-width: .01rem;
+    }
+    .dgp-page-active .ivu-page-options-elevator{
+        height: .32rem;
+        line-height: .32rem;
+        font-size: .14rem;
+    }
+    .dgp-page-active .ivu-page-options-elevator input{
+        height: .32rem;
+        line-height: .32rem;
+        padding: .04rem .07rem;
+        font-size: .12rem;
+        border-width: .01rem;
+        margin:0 .08rem;
+        width: .5rem;
+    }
+    .dgp-page-active .ivu-select-arrow{
+        right: .08rem;
+        margin-top: -0.07rem;
+        font-size: .14rem;
+    }
+    .dgp-page-active .ivu-select-dropdown{
+        position: absolute !important;
+        will-change: top, left !important;
+        top: 7.6rem !important;
+        left: 14.9rem !important;
+    }
+</style>

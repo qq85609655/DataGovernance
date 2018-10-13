@@ -1,8 +1,11 @@
 /*初始化rem*/
 (function refreshRem() {
-    var width = window.screen.width;
+    $(window).resize(()=>{
+        var width = document.body.clientWidth||document.documentElement.clientWidth;
+        var rem = width * 100 / 1920;
+        $('head').append("<style>html{font-size: "+rem+"px !important;}</style>");
+    });
+    var width = document.body.clientWidth||document.documentElement.clientWidth;
     var rem = width * 100 / 1920;
-    var s = document.createElement("style");
-    s.innerHTML = 'html{font-size:' + rem + 'px !important;}';
-    document.getElementsByTagName("head")[0].appendChild(s);
+    $('head').append("<style>html{font-size: "+rem+"px !important;}</style>");
 })()

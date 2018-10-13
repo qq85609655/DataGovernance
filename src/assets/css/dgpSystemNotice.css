@@ -1,0 +1,120 @@
+.dgp-noticeSystem{
+    /* padding-top:.31rem;
+    padding-left:.7rem; */
+}
+.dgp-notice-queryArea{
+    width:16.8rem;
+    border-radius: .03rem;
+    margin-bottom:.28rem;
+    position:relative;
+}
+.dgp-notice-leftTitle{
+    width:100%;
+    height:.5rem;
+    line-height:.5rem;
+    padding-left:.31rem;
+    font-size: .16rem;
+    border-bottom-width:.01rem;
+    border-bottom-style:solid;
+    font-family: PingFangSC-Regular;
+}
+.dgp-notice-leftTitle span{
+    display:inline-block;
+    width:.2rem;
+    height:.04rem;
+    position:absolute;
+    top:.2rem;
+    right:.18rem;
+    border-radius: .01rem;
+    cursor:pointer;
+}
+/*开始时间结束时间日历部分*/
+.dgp-notice-date{
+    display:inline-block;
+    position:absolute;
+}
+.ivu-picker-confirm{
+    display:none;
+}
+/*.ivu-picker-confirm-today{*/
+    /*border-top: .01rem solid #e8eaec;*/
+    /*text-align: right;*/
+    /*padding: .08rem;*/
+    /*clear: both;*/
+/*}*/
+
+
+
+.dgp-notice-middleContent{
+    height:1.54rem;
+    padding-top:.37rem;
+    font-size: .14rem;
+    font-family: PingFangSC-Regular;
+}
+.dgp-notice-middleContent label{
+    min-width:.7rem;
+    height:.2rem;
+    padding-left:.31rem;
+}
+.dgp-notice-middleContent input{
+    min-width:2.14rem;
+    height:.3rem;
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
+.dgp-notice-middleContent .dgp-timeEnd{
+    margin-left:.28rem;
+}
+.dgp-notice-button{
+    position:absolute;
+    top:1.47rem;
+    left:15.19rem;
+}
+.dgp-notice-button button{
+    min-width:.64rem;
+    height:.3rem;
+    cursor:pointer;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+}
+.dgp-notice-button button:first-child{
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
+.dgp-notice-button button:last-child{
+    border-radius: .03rem;
+    margin-left:.13rem;
+}
+
+/*表格内容部分*/
+.dgp-tableArea{
+    /* width:16.80rem; */
+    border-radius: .03rem;
+}
+.dgp-headBtn{
+    width:16.24rem;
+    padding-top:.24rem;
+    padding-bottom:.2rem;
+    margin:0 auto;
+}
+.dgp-headBtn button:nth-child(1){
+    min-width:.82rem;
+}
+.dgp-headBtn button:nth-child(2),.dgp-headBtn button:nth-child(3){
+    min-width:.88rem;
+}
+.dgp-headBtn button:nth-child(3){
+    border-width:.01rem;
+    border-style:solid;
+}
+.dgp-headBtn button{
+    height:.36rem;
+    line-height:.36rem;
+    margin-right:.1rem;
+    font-size: .16rem;
+    border-radius: .03rem;
+    font-family: PingFangSC-Regular;
+}
+

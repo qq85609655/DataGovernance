@@ -1,0 +1,317 @@
+.dgp-login{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    overflow:hidden;
+    /*background: -webkit-linear-gradient(left, rgba(61, 205, 187, 1) , rgba(49, 162, 189, 1)); !* Safari 5.1 - 6.0 *!*/
+    /*background: -o-linear-gradient(right, rgba(61, 205, 187, 1), rgba(49, 162, 189, 1)); !* Opera 11.1 - 12.0 *!*/
+    /*background: -moz-linear-gradient(right, rgba(61, 205, 187, 1), rgba(49, 162, 189, 1)); !* Firefox 3.6 - 15 *!*/
+    /*background: linear-gradient(to right, rgba(61, 205, 187, 1) , rgba(49, 162, 189, 1)); !* 标准的语法 *!*/
+    background: -webkit-linear-gradient(left, #3E9DBD 0%, #204F94 100%); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #3E9DBD 0%, #204F94 100%); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right,  #3E9DBD 0%, #204F94 100%); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #3E9DBD 0% , #204F94 100%); /* 标准的语法 */
+    /*filter: progid:DXImageTransform.Microsoft.gradient(GradientType = 1, startColorstr = #3DCDBB, endColorstr = #31A2BD);*/
+    /*-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3DCDBB ,endColorstr= #31A2BD ,GrandientType=1); !** IE8 **!*/
+}
+.dgp-login *{
+    box-sizing:content-box;
+}
+/* 左边 */
+.dgp-login-banner{
+    width: 7.954rem;
+    height:7.954rem;
+    position: absolute;
+    top:50%;
+    left:1.7rem;
+    margin-top: -3.977rem;
+}
+/* 大圆 */
+.dgp-login-banner-r1{
+    display:block;
+    width: 7.954rem;
+    height:7.954rem;
+    position: absolute;
+    /*top:.18rem;
+    bottom:.29rem;*/
+    left:0;
+    right: 0;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate 40s linear infinite;
+    -moz-animation: rotate 40s linear infinite;
+    -o-animation: rotate 40s linear infinite;
+    animation: rotate 40s linear infinite;
+}
+/* 大圆旋转360度 动画 */
+@-webkit-keyframes rotate{from{-webkit-transform: rotate(0deg)}
+    to{-webkit-transform: rotate(360deg)}
+}
+@-moz-keyframes rotate{from{-moz-transform: rotate(0deg)}
+    to{-moz-transform: rotate(359deg)}
+}
+@-o-keyframes rotate{from{-o-transform: rotate(0deg)}
+    to{-o-transform: rotate(359deg)}
+}
+@keyframes rotate{from{transform: rotate(0deg)}
+    to{transform: rotate(359deg)}
+}
+
+/* 小圆 */
+.dgp-login-banner-r2{
+    display:block;
+    width:5.774rem;
+    height:5.774rem;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation: rotate2 15s linear infinite;
+    -moz-animation: rotate2 15s linear infinite;
+    -o-animation: rotate2 15s linear infinite;
+    animation: rotate2 15s linear infinite;
+}
+/* 小圆反向旋转360度 动画 */
+@-webkit-keyframes rotate2{from{-webkit-transform: rotate(0deg)}
+    to{-webkit-transform: rotate(-360deg)}
+}
+@-moz-keyframes rotate2{from{-moz-transform: rotate(0deg)}
+    to{-moz-transform: rotate(-359deg)}
+}
+@-o-keyframes rotate2{from{-o-transform: rotate(0deg)}
+    to{-o-transform: rotate(359deg)}
+}
+@keyframes rotate2{from{transform: rotate(0deg)}
+    to{transform: rotate(-359deg)}
+}
+
+/*中心box*/
+.dgp-login-banner-bigIcon{
+    width:3.027rem;
+    height:2.498rem;
+    position: absolute;
+    left:2.476rem;
+    top:2.636rem;
+}
+.dgp-login-banner-bigIcon2{
+    width: 1.34rem;
+    height:1.321rem;
+    position: absolute;
+    animation: translate 3s linear infinite;
+    top:1.984rem;
+    left:3.301rem;
+}
+.dgp-login-banner-icon1{
+    width: .686rem;
+    height:1.269rem;
+    position: absolute;
+    animation: translate2 2.5s linear infinite;
+    left:2.272rem;
+    bottom:2.432rem;
+}
+.dgp-login-banner-icon2{
+    width: .56rem;
+    height:1.068rem;
+    position: absolute;
+    animation: translate 3s linear infinite;
+    top:2.85rem;
+    left:2.3rem;
+}
+
+.dgp-login-banner-icon3{
+    width: .322rem;
+    height:.592rem;
+    position: absolute;
+    animation: translate2 2.5s linear infinite;
+    top: 2.68rem;
+    right:2.9rem;
+}
+.dgp-login-banner-icon4{
+    width: .542rem;
+    height:0.907rem;
+    position: absolute;
+    animation: translate 3s linear infinite;
+    top: 3.33rem;
+    right: 2.2rem;
+}
+.dgp-login-banner-icon5{
+    width:0.756rem;
+    height:1.2rem;
+    position: absolute;
+    animation: translate2 3.4s linear infinite;
+    right:2.254rem;
+    bottom:2.314rem;
+
+}
+/* 上下浮动动画 */
+@-webkit-keyframes translate{
+    0%{-webkit-transform: translateY(0px)}
+    25%{-webkit-transform: translateY(-6px)}
+    50%{-webkit-transform: translateY(0px)}
+    75%{-webkit-transform: translateY(6px)}
+    100%{-webkit-transform: translateY(0px)}
+}
+@-moz-keyframes translate{
+    0%{-moz-transform: translateY(0px)}
+    25%{-moz-transform: translateY(-6px)}
+    50%{-moz-transform: translateY(0px)}
+    75%{-moz-transform: translateY(6px)}
+    100%{-moz-transform: translateY(0px)}
+}
+@-o-keyframes translate{
+    0%{-o-transform: translateY(0px)}
+    25%{-o-transform: translateY(-6px)}
+    50%{-o-transform: translateY(0px)}
+    75%{-o-transform: translateY(6px)}
+    100%{-o-transform: translateY(0px)}
+}
+@keyframes translate{
+    0%{transform: translateY(0px)}
+    25%{transform: translateY(-6px)}
+    50%{transform: translateY(0px)}
+    75%{transform: translateY(6px)}
+    100%{transform: translateY(0px)}
+}
+/* 上下浮动动画 */
+@-webkit-keyframes translate2{
+    0%{-webkit-transform: translateY(0px)}
+    25%{-webkit-transform: translateY(3px)}
+    50%{-webkit-transform: translateY(0px)}
+    75%{-webkit-transform: translateY(-3px)}
+    100%{-webkit-transform: translateY(0px)}
+}
+@-moz-keyframes translate2{
+    0%{-moz-transform: translateY(0px)}
+    25%{-moz-transform: translateY(3px)}
+    50%{-moz-transform: translateY(0px)}
+    75%{-moz-transform: translateY(-3px)}
+    100%{-moz-transform: translateY(0px)}
+}
+@-o-keyframes translate2{
+    0%{-o-transform: translateY(0px)}
+    25%{-o-transform: translateY(3px)}
+    50%{-o-transform: translateY(0px)}
+    75%{-o-transform: translateY(-3px)}
+    100%{-o-transform: translateY(0px)}
+}
+@keyframes translate2{
+    0%{transform: translateY(0px)}
+    25%{transform: translateY(3px)}
+    50%{transform: translateY(0px)}
+    75%{transform: translateY(-3px)}
+    100%{transform: translateY(0px)}
+}
+
+/*管理员演示*/
+.dgp-login-admin>a{
+    display:inline-block;
+    width: 1.6rem;
+    height:.48rem;
+    line-height:.48rem;
+    position: absolute;
+    bottom:1.66rem;
+    left: 3.264rem;
+    border-radius: 1rem;
+    background: #2C6EA4;
+    color: rgb(255, 255, 255);
+    font-size: .18rem;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    cursor:pointer;
+    text-decoration: none;
+    /*box-shadow: 0 .11rem .08rem 0 rgba(0,111,135,0.49);*/
+    box-shadow: 0 .11rem .08rem 0 rgba(28,118,168,1);
+}
+
+
+.dgp-login-admin-c1{
+    width: .36rem;
+    height: .36rem;
+    position: absolute;
+    bottom:1.69rem;
+    left: 2.734rem;
+    border-radius: 50%;
+    background: #2C6EA4;
+    box-shadow: 0 .11rem .08rem 0 rgba(28,118,168,1);
+}
+.dgp-login-admin-c2{
+    width: .36rem;
+    height: .36rem;
+    position: absolute;
+    bottom: 1.72rem;
+    right: 2.55rem;
+    border-radius: 50%;
+    background: #2C6EA4;
+    box-shadow: 0 .11rem .08rem 0 rgba(28,118,168,1);
+}
+
+/* 登录框 */
+.dgp-login-content{
+    width:3.4rem;
+    height:3.78rem;
+    position: absolute;
+    right:2.82rem;
+    top:50%;
+    margin-top:-1.89rem;
+}
+.dgp-login-content-title img{
+    width: 100%;
+}
+
+.dgp-login-noMatch{
+    position: absolute;
+    margin-top:.12rem;
+    width:3.32rem;
+    height:.39rem;
+    line-height:.39rem;
+    padding-left:.09rem;
+    background: #5C9DD6 100%;
+    color:#ffffff;
+    font-size:.16rem;
+}
+.dgp-login-noMatch img{
+    width:.16rem;
+    height:.16rem;
+}
+.dgp-login-inputBox1{
+    width:100%;
+    outline:none;
+    border-bottom:.01rem solid #ffffff;
+    padding-top:.65rem;
+}
+.dgp-login-inputBox2{
+    width:100%;
+    outline:none;
+    border-bottom:.01rem solid #ffffff;
+    padding-top:.51rem;
+}
+.dgp-inputBox label{
+    color:#ffffff;
+    font-size: .16rem;
+    line-height: .22rem;
+    font-family: PingFangSC-Regular;
+}
+.dgp-login-content input{
+    background: none;
+    font-size: .16rem;
+    color:#ffffff;
+    font-family: PingFangSC-Regular;
+}
+
+/*获取焦点时，边框底部加粗显示*/
+.dgp-bottomActive{
+    border-bottom:.01rem solid #3E9DBD;
+}
+
+
+
+
+

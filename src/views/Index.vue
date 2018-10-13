@@ -85,7 +85,7 @@
                 <tr>
                   <td>
                     <span class="dgp-wrap-all dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数</span>
-                    <img src="../../public/tableicon.png" alt="">
+                    <img src="../assets/images/see_all_content.png" alt="">
                   </td>
                   <td  class="dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数</td>
                   <td>2018年8月20日</td>
@@ -98,7 +98,7 @@
                 <tr>
                   <td>
                     <span class="dgp-wrap-all dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数</span>
-                    <img src="../../public/tableicon.png" alt="">
+                    <img src="../assets/images/see_all_content.png" alt="">
                   </td>
                   <td  class="dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数</td>
                   <td>2018年8月20日</td>
@@ -123,7 +123,7 @@
                 <tr>
                   <td>
                     <span class="dgp-wrap-all dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数标准名称设限按间距显示字数</span>
-                    <img src="../../public/tableicon.png" alt="">
+                    <img src="../assets/images/see_all_content.png" alt="">
                   </td>
                   <td class="dgp-view-nowrap">标准名称设限按间距显示字数标准名称设限按间距显示字数</td>
                   <td>2018年8月20日</td>

@@ -1,0 +1,955 @@
+/*系统管理各页面 颜色汇总*/
+/*各个页面外层div背景色*/
+.dgp-userSystem,.dgp-roleSystem,
+.dgp-jurisdictionSystem,.dgp-configureSystem,
+.dgp-noticeSystem,.dgp-journalSystem,.dgp-processSystem{
+    background-color: #F0F2F5;
+}
+
+/*页码*/
+/* dgp-pagenation-dialog 各分页器样式 */
+.dgp-pagenation-dialog{
+
+}
+.dgp-pagenation-dialog .dgp-page-active{
+    margin: 0 .28rem;
+    text-align: right;
+    border-top:.01rem solid rgba(217,227,237,0.8);
+}
+.dgp-page-active .ivu-page-item-active{
+    background: #32B3EA 100% !important;
+}
+
+/***************************************************************/
+/*dgpSystemUser.vue*/
+/*上查询区*/
+.dgp-queryArea{
+    background-color: #fff;
+}
+.dgp-leftTitle{
+    color: #000000;
+}
+.dgp-rightSwitch{
+    color: #32B3EA ;
+}
+.dgp-middleContent{
+    color: #000000;
+    border-top-color:#E5E5E5;
+}
+.dgp-queryArea input{
+    background: #FFFFFF;
+    border-color: #C6C6C6;
+}
+
+/*下表格头部操作按钮*/
+.dgp-tableArea{
+    background: #FFFFFF;
+}
+
+.dgp-passwordBtn{
+    color: #333333;
+    background-color: #fff;
+    border-color:#32B3EA;
+}
+.dgp-freshBtn,.dgp-pageBtn{
+    background: #6BC7BC;
+}
+.dgp-cellBtn{
+    background: #6BC7BC;
+}
+
+/*table主体*/
+.dgp-pagination ul li{
+    background: #FFFFFF;
+    border-color:#D9D9D9;
+    color: rgba(0,0,0,0.65);
+}
+.dgp-pagination-ten{
+    color: rgba(0,0,0,0.65);
+    border-color:#D9D9D9;
+}
+.dgp-pagination-jump,.dgp-pagination-page{
+    color: rgba(0,0,0,0.65);
+}
+.dgp-pagination-five{
+    border-color:#D9D9D9;
+    color: rgba(0,0,0,0.65);
+}
+
+/*dgpSystemRole.vue*/
+/*上查询区*/
+.dgp-queryArea{
+    background-color: #fff;
+}
+.dgp-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+
+.dgp-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+.dgp-middleContent label{
+    color: #000000;
+}
+
+/*下表格顶部操作按钮*/
+.dgp-tableArea{
+    background: #FFFFFF;
+}
+/*table主体*/
+.dgp-role-pagination ul li{
+    background: #FFFFFF;
+    border-color:#D9D9D9;
+    color: rgba(0,0,0,0.65);
+}
+
+/*dgpSystemJurisdiction.vue*/
+/*上查询区*/
+.dgp-jurisdiction-queryArea{
+    background-color: #fff;
+}
+.dgp-jurisdiction-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+.dgp-right-jurisdiction-Switch{
+    color: #32B3EA ;
+}
+.dgp-jurisdiction-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+
+
+/*dgpSystemConfigure.vue*/
+/*上查询区*/
+.dgp-configure-queryArea{
+    background-color: #fff;
+}
+.dgp-configure-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+.dgp-right-configure-Switch{
+    color: #32B3EA ;
+}
+.dgp-configure-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+
+/*下表格顶部删除按钮*/
+.dgp-tableArea{
+    background: #fff;
+}
+/*表格+新增模态框颜色*/
+/* modal样式初始化*/
+.dgp-system-config-modal .ivu-modal-header{
+    border-color: rgba(0,0,0,0.09);
+}
+.dgp-config-modal-item{
+    color:#000;
+}
+.dgp-config-modal-item input[type=text]{
+    border-color:rgba(232,232,232);
+}
+.dgp-config-modal-item>span>i{
+    color:#AB091D;
+}
+.dgp-config-modal-item .ivu-radio-group-button>.ivu-radio-wrapper{
+    border-color:#32B3EA;
+    color:rgba(0,0,0,0.85);
+    background-color: #FFF;
+}
+.dgp-config-modal-item  .ivu-radio-group-button .ivu-radio-wrapper:first-child{
+    border-color: #32B3EA;
+}
+.dgp-config-modal-item .ivu-radio-group-button>.ivu-radio-wrapper:hover,
+.dgp-config-modal-item .ivu-radio-group-button>.ivu-radio-wrapper-checked{
+    color: #FFF;
+    background-color: #32B3EA;
+}
+.dgp-system-config-modal .ivu-modal-footer button{
+    border-color:#32B3EA;
+    color:#32B3EA;
+}
+.dgp-system-config-modal .ivu-modal-footer button:last-child,
+.dgp-system-config-modal .ivu-modal-footer button:hover {
+    color: #FFF;
+    background-color: #32B3EA;
+}
+.dgp-tableBody .ivu-poptip-confirm .ivu-poptip-body .ivu-icon {
+    color:#32B3EA;
+}
+
+
+/*dgpSystemNotice.vue*/
+/*上查询区*/
+.dgp-notice-queryArea{
+    background-color: #fff;
+}
+.dgp-notice-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+.dgp-right-notice-Switch{
+    color: #32B3EA ;
+}
+.dgp-notice-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+/*查看模态框modal_notice.vue颜色*/
+.dgp-noticeTitle{
+    color:#9A9A9A;
+}
+.dgp-noticeContent{
+    text-align: left;
+    color: #000;
+}
+.dgp-noticeDetails{
+    color: #9A9A9A ;
+}
+.ivu-modal-footer button{
+    color: #FFFFFF;
+    background: #32B3EA;
+}
+/*日历foot区颜色*/
+.ivu-btn{
+    color:#32B3EA !important;
+}
+
+/*dgpSystemJournal.vue*/
+/*上查询区*/
+.dgp-journal-queryArea{
+    background-color: #fff;
+}
+.dgp-journal-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+.dgp-right-journal-Switch{
+    color: #32B3EA ;
+}
+.dgp-journal-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+/*下表格顶部删除按钮*/
+.dgp-tableArea{
+    background: #fff;
+}
+
+/*dgpSystemParameter.vue*/
+.dgp-systemParameter-info-line{
+    background: #D8D8D8;
+}
+
+
+/*dgpSystemProcess.vue*/
+/*上查询区*/
+.dgp-process-queryArea{
+    background-color: #fff;
+}
+.dgp-process-leftTitle{
+    color: #000000;
+    border-bottom-color:#E5E5E5;
+}
+.dgp-right-process-Switch{
+    color: #32B3EA ;
+}
+.dgp-process-middleContent input{
+    background: #FFFFFF;
+    border-color:#C6C6C6;
+}
+
+/*下表格顶部删除按钮*/
+.dgp-tableArea{
+    background: #fff;
+}
+/*表格新增按钮模态框颜色*/
+.dgp-system-process-modal .ivu-modal-header{
+    border-color: rgba(0,0,0,0.09);
+}
+.dgp-process-modal-item{
+    color:#000;
+}
+.dgp-process-modal-item input[type=text]{
+    border-color:rgba(232,232,232,1);
+}
+
+.dgp-process-modal-item>.ivu-upload .ivu-upload-list span{
+    background-color: #F1F1F1;
+}
+.dgp-process-modal-item>span>i{
+    color:#AB091D;
+}
+.dgp-process-modal-item .ivu-radio-group-button>.ivu-radio-wrapper{
+    border-color:#32B3EA;
+    box-shadow: none;
+    color:rgba(0,0,0,0.85);
+    background-color: #FFF;
+}
+.dgp-process-modal-item .ivu-radio-group-button>.ivu-radio-wrapper:hover,
+.dgp-process-modal-item .ivu-radio-group-button>.ivu-radio-wrapper-checked{
+    color: #FFF;
+    background-color: #32B3EA;
+}
+.dgp-system-process-modal .ivu-modal-footer button{
+    border-color:#32B3EA;
+    color:#32B3EA;
+}
+.dgp-system-process-modal .ivu-modal-footer button:last-child,
+.dgp-system-process-modal .ivu-modal-footer button:hover {
+    color: #FFF;
+    background-color: #32B3EA;
+}
+
+
+/*********************************************************************/
+/*****************************************************/
+/*郜路知添加*/
+/*系统首页左侧一级菜单*/
+.dgp-home-icon{
+    background: -moz-linear-gradient(top, rgba(7, 50, 113, 1) 0%, rgba(21, 115, 146, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(7, 50, 113, 1)), color-stop(100%,rgba(21, 115, 146, 1)));
+    background: -webkit-linear-gradient(top, rgba(7, 50, 113, 1) 0%,rgba(21, 115, 146, 1) 100%);
+    background: -o-linear-gradient(top, rgba(7, 50, 113, 1) 0%,rgba(21, 115, 146, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(7, 50, 113, 1) 0%,rgba(21, 115, 146, 1) 100%);
+    background: linear-gradient(to bottom, rgba(7, 50, 113, 1) 0%,rgba(21, 115, 146, 1) 100%);
+}
+.dgp-whiteArrow-icon{
+    background-color:rgba(50, 179, 234, 1);
+    box-shadow: 0px 0px .06rem 0px rgba(0, 21, 41, 0.35);
+}
+.dgp-twoMenu-content{
+    cursor: pointer;
+}
+.dgp-home-icons>div{
+    cursor: pointer;
+    color: #FFF;
+    border-bottom: .01rem solid #005F83;
+}
+.dgp-home-icons>div:hover{
+    border-color:#32B3EA;
+    background-color: #32B3EA;
+}
+.dgp-home-icons>div.active{
+    border-color:#32B3EA;
+    background-color: #32B3EA;
+}
+.dgp-home-icons>div>p{
+    color: #fff;
+}
+/*系统首页logo*/
+.dgp-logo-spot{
+    background-color: rgb(0,0,0);
+}
+.dgp-exitSystem>span{
+    color: rgba(112, 115, 123, 1);
+}
+/*系统首页切换蒙版*/
+.dgp-menu{
+    background: -moz-linear-gradient(-139deg, #0C3B7F 0%, #157392 100%);
+    background: -webkit-linear-gradient(-139deg, #0C3B7F 0%, #157392 100%);
+    background: -o-linear-gradient(-139deg, #0C3B7F 0%, #157392 100%);
+    background: -ms-linear-gradient(-139deg, #0C3B7F 0%, #157392 100%);
+    background: linear-gradient(-139deg, #0C3B7F 0%, #157392 100%);
+}
+.dgp-menu-top span{
+    color: rgb(0, 0, 0);
+}
+.dgp-menu-fork{
+    background-color: #0C3B7F;
+}
+.dgp-menu-content{
+    box-shadow: 10px 0px 6px 0px rgba(82, 82, 82, 0.21);
+    /*border-bottom: 0.01rem solid #FFFFFF;*/
+}
+.dgp-menu-content-module p{
+    color: rgb(255, 255, 255);
+}
+.dgp-mask-content{
+    background:rgba(0, 0, 0,0.7) ;
+}
+/*系统首页二级菜单*/
+.dgp-twoMenu{
+    background:  #32B3EA;
+
+}
+.dgp-twoMenu-title{
+    color: #FFFFFF;
+    border-bottom: 1px solid #4786c5;
+}
+.dgp-twoMenu-content{
+    color: #FFFFFF;
+}
+.dgp-twoMenu-content:hover{
+    color:#FFF;
+    background-color: #1A99CF;
+}
+
+/*系统首页顶部子路由按钮*/
+.dgp-system-subpage{
+    background-color: #f0f2f7;
+    box-shadow: 0px 1px 2px 0px rgba(0, 21, 41, 0.12);
+}
+.dgp-system-subpage-content{
+    background-color: rgba(212, 234, 229, 0.22);
+    border-right: 0.01rem solid #D8D8D8;
+}
+.dgp-system-subpage-content.active,
+.dgp-system-subpage-content:hover{
+    background-color:rgb(255,255,255);
+}
+/*++++++++++++++++++++++++++添加*/
+.dgp-whiteArrow-icon,.dgp-menu-fork,.dgp-exitSystem{
+    cursor: pointer !important;
+}
+.dgp-exitSystem{
+    z-index: 60;
+}
+.dgp-menu-content .dgp-menu-content-module {
+    background-color: #0C3B7F;
+    cursor: pointer;
+}
+.dgp-menu-content .dgp-menu-content-module.active,
+.dgp-menu-content .dgp-menu-content-module:hover {
+    background-color: #32B3EA;
+    /*background-color: #d2d3d4;*/
+}
+.dgp-system-subpage .dgp-system-subpage-content{
+    font-size: 0;
+}
+.dgp-system-subpage .dgp-system-subpage-content>span:first-child{
+     height: 100%;
+     display: inline-block;
+    font-size: .16rem;
+    min-width: 1rem;
+    padding: 0 .06rem;
+ }
+.dgp-system-subpage .dgp-system-subpage-content>span:last-child{
+    height: 100%;
+    display: inline-block;
+    font-size: .16rem;
+    width: .28rem;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++*/
+/*菜单管理页面 dgpSystemMenu组件*/
+/*左侧树*/
+.dgp-systemMenu-tree{
+    box-shadow: 0.05rem 0.02rem 0.13rem 0 rgba(57,80,77,0.15);
+    background-color: #FFFFFF;
+}
+/*右侧内容部分*/
+.dgp-systemMenu-info{
+    background-color: #FFFFFF;
+}
+.dgp-systemMenu-info-detailed{
+    color: #333333;
+}
+.dgp-systemMenu-info-line{
+    background: #D8D8D8;
+}
+.dgp-systemMenu-inp{
+    border: 1px solid #E8E8E8;
+}
+.dgp-systemMenu-describe{
+    border: 1px solid #E8E8E8;
+}
+.dgp-systemMenu-state-run{
+    border: 1px solid #F5F7F6 ;
+    background: #F5F7F6;
+    color: #000000;
+}
+.dgp-systemMenu-state-stop{
+    border: 1px solid rgba(232,232,232,1);
+    background-color: #ffffff;
+    color: #000000;
+}
+.dgp-systemMenu-sel{
+    background: #F5F7F6;
+}
+
+
+/*菜单管理页面提示框 modal_menuManage组件*/
+
+.dgp-systemMenu-newAdd-inp{
+    border: 1px solid #E8E8E8;
+}
+
+.ivu-modal-footer .ivu-btn-text{
+    background-color:#FFFFFF !important;
+    border: .01rem solid rgba(50, 179, 234, 1) !important;
+    color: rgba(50, 179, 234, 1) !important;
+}
+.ivu-poptip-footer .ivu-btn-text:hover,
+.ivu-modal-footer .ivu-btn-text:hover{
+    border: .01rem solid rgba(50, 179, 234, 1) !important;
+    background-color: rgba(50, 179, 234, 1) !important;
+    color:#fff !important;
+}
+.ivu-btn-primary{
+    background-color: rgba(50, 179, 234, 1) !important;
+    color: #FFFFFF !important;
+}
+.ivu-btn-primary:hover{
+    background-color:#51C8FB !important;
+}
+
+/*机构管理页面 dgpSystemMechanism组件*/
+/*左侧树*/
+.dgp-systemMechanism-tree{
+    box-shadow: 0.05rem 0.02rem 0.13rem 0 rgba(57,80,77,0.15);
+    background-color: #FFFFFF;
+}
+/*右侧内容部分*/
+.dgp-systemMechanism-info{
+    background-color: #FFFFFF;
+}
+.dgp-systemMechanism-info-detailed{
+    color: #333333;
+}
+.dgp-systemMechanism-info-line{
+    background: #D8D8D8;
+}
+.dgp-systemMechanism-inp{
+    border: 1px solid #E8E8E8;
+    background: #F5F7F6;
+}
+.dgp-systemMechanism-asterisk{
+    color:#AB091D;
+}
+.dgp-systemMechanism-state-run{
+    border: 1px solid #F5F7F6 ;
+    background: #F5F7F6;
+    color: #000000;
+}
+.dgp-systemMechanism-state-stop{
+    border: 1px solid rgba(232,232,232,1);
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/*机构管理新增提示框 modal_mechanismmanage组件*/
+.dgp-systemMechanism-newAdd-inp{
+     border: 1px solid #E8E8E8;
+ }
+.dgp-systemMechanism-asterisk{
+    color:#AB091D;
+}
+/*用户管理新增提示框*/
+.dgp-systemUser-newAdd-inp{
+    border: 1px solid #E8E8E8;
+}
+.dgp-systemUser-asterisk{
+    color:#AB091D;
+}
+.dgp-systemUser-newAdd-content .ivu-select-placeholder{
+    color:#747474!important;
+    font-size: 11px!important;
+}
+
+
+/*参数管理页面 dgpSystemParameter 组件*/
+/*左侧树*/
+.dgp-systemParameter-tree{
+    box-shadow: 0.05rem 0.02rem 0.13rem 0 rgba(57,80,77,0.15);
+    background-color: #FFFFFF;
+}
+/*右侧内容*/
+.dgp-systemParameter-info{
+    background-color: #FFFFFF;
+}
+.dgp-systemParameter-info-detailed{
+    color: #333333;
+}
+.dgp-systemParameter-inp{
+    border: 1px solid #E8E8E8;
+    background: #F5F7F6;
+}
+/*参数管理页面新增提示框*/
+.dgp-systemParameter-newAdd-inp{
+    border: 1px solid #E8E8E8;
+}
+
+
+
+/********************************************************************/
+/********************************************************************/
+/*component/modal模态框颜色提取*/
+/*modal_confirm.vue*/
+.dgp-modal .ivu-btn-primary {
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-modal .ivu-btn-primary:hover {
+    color: #fff;
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-modal .ivu-btn-text:hover {
+    color: #6BC7BC;
+}
+
+
+/*modal_mechanismmanage.vue*/
+/*modal_menuManage.vue*/
+/*modal_parameterManage.vue*/
+/*这里三块郜上面已添加*/
+
+
+/*modal_rolemanage.vue*/
+.ivu-input:focus, .ivu-input:hover {
+    border-color: #6BC7BC;
+}
+.dgp-modal-usermanager-item span{
+    color: rgba(0,0,0,0.85);
+}
+.dgp-modal-usermanager-item button{
+    border-color: #E8E8E8;
+    background: #FFF;
+}
+.dgp-modal-usermanager-item button.active{
+    color:#fff;
+    background:#32B3EA ;
+    border-color:#32B3EA ;
+}
+/*.dgp-modal-usermanager-item button:last-child{
+    background: #fff;
+    border-color:rgba(232,232,232,1);
+}*/
+.dgp-modal-usermanager-formbox .ivu-btn-primary {
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-modal-usermanager-formbox .ivu-btn-primary:hover {
+    color: #fff;
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-modal-usermanager-formbox .ivu-btn-text:hover {
+    color: #6BC7BC;
+}
+.dgp-modal-usermanager-formbox .userstate>button:hover{
+    color: #FFF;
+    background-color: #32B3EA;
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+/*table颜色汇总*/
+/*table_style.css颜色提取*/
+.home-table .ivu-table th{
+    background: #F0F4FF 49%;
+}
+.home-table .ivu-table-header{
+    border-bottom-color:#dbe3ec;
+}
+.home-table tbody tr>td{
+    border-bottom-color:  rgba(228,236,255,1);;
+}
+.home-table .ivu-table-row-hover td{
+    background:  none;
+}
+.home-table .ivu-table-body table>tbody>tr:hover>td{
+    background: #dfeaf3;
+}
+.home-table .ivu-table-body table>tbody>tr>td:last-child>div>div>a:not(:last-child):after{
+    color:#595959!important;
+}
+.home-table  table>tbody>tr>td a{
+    background-color: transparent;
+}
+/*zh search无数据 css*/
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>p>span{
+    color:#1890FF;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>p>a{
+    color:#1890FF;
+}
+.home-table .ivu-table-tip>table>tbody>tr:first-child>td>div{
+    color:#FFF;
+    background-color: #6BC7BC;
+}
+/*废止*/
+.table2 .ivu-table th{
+    background: #f4f7f6;
+}
+.table2 .ivu-table-wrapper{
+    border-color: #e1e8f0;
+}
+.table2 .ivu-table td, .ivu-table th{
+    border-color: #e1e8f0;
+}
+.table2 .ivu-table-default::before{
+    background-color: #e1e8f0;
+}
+.table2 .ivu-table-default::after{
+    background-color: #e1e8f0;
+}
+.table2 .ivu-table-header{
+    border-color: #e1e8f0;
+}
+.table2 thead tr th:nth-child(n+2){
+    border-left-color:#e1e8f0;
+}
+.table2 tbody tr td:nth-child(n+2){
+    border-left-color:#e1e8f0;
+}
+.table3 .ivu-table th{
+    background: #f4f7f6;
+}
+.table3 .ivu-table-wrapper{
+    border: none;
+}
+.table3 .ivu-table td, .ivu-table th{
+    border: none;
+}
+.table3 .ivu-table-header{
+    /* border-bottom: 1px solid #dbe3ec; */
+}
+.table3 tbody.ivu-table-tbody  tr td{
+    border-bottom-color:#e1e8f0;
+}
+/* .table3 tbody tr:nth-child(2n) td{
+        background: #f8faf9;
+} */
+.table3 .ivu-table-row-hover td{
+    background:  none;
+}
+
+
+
+/************************************************************/
+/************************************************************/
+/*components/transfer颜色汇总*/
+/*transfer_authorization.vue*/
+.dgp-transfer-button{
+    background: #6BC7BC;
+    color:#fff;
+}
+.dgp-transfer-table{
+    border-color:#E2E2E2;
+}
+.dgp-transfer-table-operation .dgp-transfer-table-operation-button{
+    border-color:#32B3EA;
+    color:#32B3EA;
+    background: #fff;
+}
+.dgp-transfer-table-operation .dgp-transfer-table-operation-button:hover{
+    background: #32B3EA;
+    color:#fff;
+}
+.dgp-transferModal .ivu-btn-primary {
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-transferModal .ivu-btn-primary:hover {
+    color: #fff;
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-transferModal .ivu-btn-text:hover {
+    color: #6BC7BC;
+}
+
+/*transfer_role.vue*/
+.dgp-transfer-button{
+    background: #32B3EA;
+    color:#fff;
+}
+.dgp-transfer-button:hover{
+    background: #fff;
+    color:#32B3EA;
+    border:1px solid #32B3EA;
+}
+.dgp-transfer-table{
+    border-color: #E2E2E2;
+}
+.dgp-transfer-table-operation-button{
+    border-color: #6BC7BC;
+    color: #6BC7BC;
+}
+.dgp-transferRoleModal .ivu-btn-primary {
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-transferRoleModal .ivu-btn-primary:hover {
+    color: #fff;
+    background-color: #6BC7BC;
+    border-color: #6BC7BC;
+}
+.dgp-transferRoleModal .ivu-btn-text:hover {
+    color: #6BC7BC;
+}
+/*表格隔行换色*/
+.dgp-transferRoleModal .table3 .ivu-table-tbody .ivu-table-row:hover{
+    background: #f4f7f6;
+}
+
+
+/********************************************************/
+/********************************************************/
+/*component/tree颜色汇总*/
+/*tree_demo.vue*/
+.dgp-tree .ztree li a {
+    color: #333;
+    background-color: transparent;
+}
+.dgp-tree .ztree li span {
+    color: rgba(48, 48, 48, 1);
+}
+/*tree_organization_select.vue*/
+.dgp-tree-organization .ztree li a {
+    color: #333;
+    background-color: transparent;
+}
+.dgp-tree-organization .ztree li span.node_name {
+    color: rgba(48, 48, 48, 1);
+    color: #595959;
+}
+.dgp-tree-organization{
+    box-shadow: 0 1px 10px 0 rgba(0,21,41,0.13);
+}
+
+
+/************************************************************/
+/************************************************************/
+/*component下组件*/
+/*DgpCreateBatch.vue*/
+        /*search table新建批量样色*/
+.dgp-router-view .dgp-table-controls>button{
+    color:rgba(0,0,0,0.65);
+    border-color: #D9D9D9;
+}
+        /*search table新建批量active*/
+.dgp-router-view .dgp-table-controls>button.dsp-active{
+    border-color: #6BC7BC;
+    color:#FFF;
+}
+
+/*DgpPagenation.vue*/
+.dgp-page-active .ivu-page-item-active{
+    border-color: #dcdee2;
+    color:#fff;
+    background: #81c5bc;
+}
+.dgp-page-active .ivu-page-item-active a{
+    color:#fff;
+}
+.dgp-page-active .ivu-page-item-jump-next a{
+    color: #515a6e;
+}
+.dgp-page-active .ivu-page-item-jump-prev a{
+    color: #515a6e;
+}
+.dgp-page-active .ivu-page-item:hover a {
+    color: #515a6e;
+}
+.ivu-page-next:hover, .ivu-page-prev:hover {
+    border-color: #dcdee2;
+}
+.ivu-page-next:hover a, .ivu-page-prev:hover a{
+    border-color: #515a6e;
+}
+.dgp-page-active .ivu-page-item:hover {
+    border-color: #dcdee2;
+}
+.dgp-page-active .ivu-page-next:hover a, .ivu-page-prev:hover a {
+    color: #515a6e;
+}
+.dgp-page-active .ivu-select-selection-focused, .ivu-select-selection:hover {
+    border-color: #81c5bc;
+}
+.dgp-page-active .ivu-select-item-selected,.ivu-select-item-selected:hover {
+    color: #515a6e;
+}
+.dgp-page-active .ivu-select-visible .ivu-select-selection {
+    border-color: #dcdee2;
+    box-shadow: 0 0 0 0;
+}
+.dgp-page-active .ivu-page-options-elevator input:hover {
+    border-color: #dcdee2;
+}
+.dgp-page-active .ivu-page-options-elevator input:focus {
+    border-color: #dcdee2;
+    box-shadow: 0 0 0 0;
+}
+
+/*DgpSearchHighRow.vue*/
+/*search 高级搜索*/
+.dgp-search-high-row>span{
+    color: #222;
+}
+.dgp-search-high-row ul>li>a{
+    color: rgba(0,0,0,0.65);
+}
+.dgp-search-high-row ul>li>a:hover,
+.dgp-search-high-row ul>li>a.dgp-high-active{
+    color: #FFF;
+}
+
+/*tree.vue*/
+.dgp-tree .ztree li a {
+    color: #333;
+    background-color: transparent;
+}
+.dgp-tree .ztree li span {
+    color: rgba(48, 48, 48, 1);
+}
+
+/********************************************************************/
+/********************************************************************/
+/*统一按钮颜色*/
+/*除默认通用无背景色按钮按钮*/
+.btn-default{
+    background-color:#FFFFFF!important;
+    border: .01rem solid rgba(50, 179, 234, 1)!important;
+    color: rgba(50, 179, 234, 1)!important;
+}
+.btn-default:hover{
+    border: .01rem solid rgba(50, 179, 234, 1)!important;
+    background-color: rgba(50, 179, 234, 1)!important;
+    color: #FFFFFF!important;
+}
+/*默认按钮*/
+/*默认有背景色按钮*/
+.btn-primary{
+    background-color: rgba(50, 179, 234, 1)!important;
+    color: #FFFFFF!important;
+}
+.btn-primary:hover{
+    background-color:#51C8FB!important;
+}
+
+
+/*不可操作按钮*/
+.btn-disable{
+    border: 1px solid rgba(50, 179, 234, 1);
+    background-color: #e3e3e3;
+    color: #000000;
+}
+/*不可操作变为可操作*/
+.btn-disable-change{
+    border: 1px solid rgba(50, 179, 234, 1);
+    background-color: #FFFFFF;
+    color: rgba(50, 179, 234, 1);
+}
+
+/*超链接按钮*/
+.btn-link{
+    color: #4D7CEA;
+}
+.btn-link:hover{
+    color: #5784EA;
+}
+
+
+
+
+

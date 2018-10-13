@@ -1,0 +1,112 @@
+.dgp-processSystem{
+    /* padding-top:.31rem;
+    padding-left:.7rem; */
+}
+.dgp-process-queryArea{
+    width:16.8rem;
+    border-radius: .03rem;
+    margin-bottom:.28rem;
+    position:relative;
+}
+.dgp-process-leftTitle{
+    width:100%;
+    height:.5rem;
+    line-height:.5rem;
+    padding-left:.31rem;
+    font-size: .16rem;
+    border-bottom-width:.01rem;
+    border-bottom-style:solid;
+    font-family: PingFangSC-Regular;
+}
+.dgp-process-leftTitle span{
+    display:inline-block;
+    width:.2rem;
+    height:.04rem;
+    position:absolute;
+    top:.2rem;
+    right:.18rem;
+    border-radius: .01rem;
+    cursor:pointer;
+}
+.dgp-process-middleContent{
+    height:1.54rem;
+    padding-top:.37rem;
+    font-size: .14rem;
+    font-family: PingFangSC-Regular;
+    clear:both;
+}
+.dgp-process-middleContent div{
+    float:left;
+}
+.dgp-process-middleContent label{
+    min-width:.7rem;
+    height:.2rem;
+    padding-left:.31rem;
+}
+.dgp-process-middleContent input{
+    width:2.14rem;
+    height:.3rem;
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
+.dgp-process-middleContent .dgp-timeEnd{
+    margin-left:.28rem;
+}
+.dgp-process-button{
+    position:absolute;
+    top:1.47rem;
+    left:15.19rem;
+}
+.dgp-process-button button{
+    min-width:.64rem;
+    height:.3rem;
+    cursor:pointer;
+    font-family: PingFangSC-Regular;
+    font-size: .14rem;
+}
+.dgp-process-button button:first-child{
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
+.dgp-process-button button:last-child{
+    border-radius: .03rem;
+    margin-left:.13rem;
+}
+
+/*表格内容部分*/
+.dgp-tableArea{
+    /* width:16.80rem; */
+    border-radius: .03rem;
+}
+.dgp-topBtn{
+    width:16.24rem;
+    margin:0 auto;
+    padding-top:.22rem;
+}
+.dgp-topBtn button{
+    min-width:.82rem;
+    height:.36rem;
+    line-height:.36rem;
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+    font-size: .16rem;
+    text-align: center;
+    cursor:pointer;
+    font-family: PingFangSC-Regular;
+}
+.dgp-topBtn button:first-child{
+    margin-right:.1rem;
+}
+.dgp-topBtn button:first-child img{
+    width:.16rem;
+    height:.16rem;
+    margin-right:.03rem;
+}
+.dgp-topBtn button:last-child{
+    border-width:.01rem;
+    border-style:solid;
+    border-radius: .03rem;
+}
