@@ -1,0 +1,119 @@
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*index*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*导航tabs背景色*/
+/*使用图片代替*/
+.dgp-nav-tabs{
+    background-color: rgb(234, 239, 241);
+}
+.dgp-nav-tabs>li:hover,
+.dgp-nav-tabs>li.dgp-tabs-active{
+    background-color: #FFF;
+}
+.dgp-nav-tabs>li:last-child:after{
+    background-color: transparent;
+}
+/*主体背景色*/
+.dgp-tabs-content{
+    background-color: #F0F2F5;
+}
+/*搜索输入框框背景色*/
+.dgp-search-input{
+    background:#FFF;
+}
+.dgp-search .dgp-search-icon{
+    background: #FFF url("../images/search_input.png") center center no-repeat;
+}
+.dgp-search input{
+    background-color: #FFF;
+}
+/*查询提交按钮*/
+.dgp-search-submit{
+    background-color: #56CEB4;
+}
+/*搜索历史*/
+.dgp-search-history{
+    background:#FFF url("../images/arrow_down.png") 2.6rem center no-repeat;
+}
+.dgp-search-history>ul{
+    background: #FFFFFF;
+}
+.dgp-search-history>ul>li:hover{
+    background: #6BC7BC;
+}
+/*dgp-head-title修饰*/
+.dgp-head-title>span.dgp-head-embellish{
+    background-color: #D8D8D8;
+}
+/*主题分类背景色*/
+.dgp-cate-content {
+    background-color: #FFF;
+}
+.dgp-cate-content>ul>li>a:hover{
+    background-color: #6BC7BC;
+    color: #FFF;
+}
+/*关注背景色*/
+.dgp-attention-table{
+    background-color: #FFF;
+}
+/*关注查看更多*/
+.dgp-head-title .dgp-see-all{
+    background-color: #6BC7BC;
+}
+/*我的关注table样式背景设置*/
+.dgp-attention-table tbody > tr:nth-of-type(even) {
+    background-color: #F8FaF9;
+}
+.dgp-attention-table tbody > tr.dgp-nth-color {
+    background-color: #F8FaF9;
+}
+.dgp-attention-table tbody > tr.dgp-nth-white {
+    background-color: #FFFFFF;
+}
+.dgp-attention-table table > tbody > tr:hover {
+    background-color: #c1e6e2;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/*search*/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.dgp-search-main{
+    background-color: #F0F2F5;
+}
+.dgp-search-link .dgp-search-router a{
+    background-color: #F8F8F8;
+}
+.dgp-search-link .dgp-search-router a:hover{
+    background-color: #6BC7BC ;
+}
+/*search router-link 背景色*/
+.dgp-search-link .dgp-search-router a.router-link-exact-active{
+    background-color: #6BC7BC;
+}
+.dgp-search-group-main .dgp-search-icon,
+.dgp-search-group-main  .dgp-search-submit{
+    background-color: #6BC7BC;
+}
+/*search 高级搜索按钮*/
+.dgp-search-group-main .dgp-search-more{
+    background-color: #1B6979;
+}
+/*search 高级搜索子选项背景色*/
+.dgp-search-high{
+    background-color: #FFF;
+}
+
+.dgp-search-high-row ul>li>a:hover,
+.dgp-search-high-row ul>li>a.dgp-high-active{
+    background-color: #6BC7BC;
+}
+/*search table新建批量背景色*/
+.dgp-router-view .dgp-table-controls>button.dsp-active{
+    background-color: #6BC7BC;
+}
+
+
+
+
+
